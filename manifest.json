@@ -1,0 +1,14 @@
+{
+    "name": "PDF Tab Downloader",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Lists all open https://... .pdf tabs in the current window and downloads them at once.",
+    "permissions": [
+      "tabs",
+      "downloads"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
